@@ -1,39 +1,40 @@
-essen := leer;
-getränk := leer;
+food := leer;
+drink := leer;
 System.out.println(Guten Tag bei MD, Ihre Bestellung bitte!);
-System.out.println(Hamburger(1), Cheeseburger(2) oder Chilliburger(3)?);
- Hamburger = System.console().readLine();
- 
+System.out.println(Hamburger (1), Cheeseburger (2)oder Chilliburger (3) ?);
+ 1 = System.console().readLine();
 switch (Burgerauswahl)
 {
-    case Hamburger:
-        essen := Hamburger;
+    case 1:
+        food := Hamburger;
         break;
-    case Cheeseburger:
-        essen := Cheeseburger;
+    case 2:
+        food := Cheeseburger;
         break;
-    case Chilliburger:
-        essen := Chilliburger;
+    case 3:
+        food := Chilliburger;
         break;
 }
-if (Bestellvorgang fortsetzen?)
+System.out.println(Möchten Sie ein Getränk dazu bestellen? (j/n));
+j = System.console().readLine();
+if (Bestellvorgang fortsetzen? (Eingabe j) ?)
 {
-    System.out.println(Cola , Fanta, Sprite ?);
-    E: Sprite = System.console().readLine();
+    System.out.println(Cola (1) , Fanta (2), Sprite (3)?);
+    E: 2 = System.console().readLine();
     switch (Getränkeauswahl)
     {
-        case Cola :
-            getränk := Cola ;
+        case 1:
+            drink := Cola ;
             break;
-        case Fanta:
-            getränk := Fanta;
+        case 2:
+            drink := Fanta;
             break;
-        case Sprite :
-            getränk := Sprite ;
+        case 3:
+            drink := Sprite ;
             break;
     }
-    System.out.println(Hier ist Ihre Bestellung; essen + getränk);
+    System.out.println(Hier ist Ihre Bestellung; food und drink);
 } else {
-    System.out.println(Hier ist Ihre Bestellung: essen);
+    System.out.println(Hier ist Ihre Bestellung: food);
 }
 System.out.println(Vielen Dank, und Auf Wiedersehen!);
