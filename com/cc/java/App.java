@@ -22,7 +22,7 @@ public class App {
 
         // Bestelldialog 1 : Eingabe
         itemNumStr = System.console().readLine("Ihre Wahl? : ");
-        System.out.println(itemNumStr);  // 1 oder 2 oder 3
+        // System.out.println(itemNumStr);  // 1 oder 2 oder 3
 
         // Zuordnung Zahl --> Burger
         switch (itemNumStr)
@@ -40,12 +40,12 @@ public class App {
 
         System.out.println(food);
 
-
+       
         // Entscheidung Getränk dazu?
+        System.out.println("-------------------------------");
         System.out.println("Möchten Sie ein Getränk dazu bestellen? (j/n)");
         flag = System.console().readLine("(j/n)? :");
-
-        System.out.println(flag);
+        // System.out.println(flag);
 
       	 // Getränkeasuwahl
         if (flag.equals("j")) {
