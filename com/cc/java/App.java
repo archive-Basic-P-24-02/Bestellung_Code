@@ -21,5 +21,24 @@ public class App {
         //Eingabe
         itemNumStr = System.console().readLine("Ihre Wahl?:");
         System.out.println(itemNumStr);
+
+        // Zuordnung Zahl -> Burger
+
+        switch (itemNumStr){
+            case "1":
+                food = "Hamburger";
+            break;
+            case "2":
+                food = "Cheeseburger";
+            break;
+            case "3":
+                food = "Chilliburger";
+            break;
+            case "4":
+                food = "nicht im Sortiment";
+            break;
+        }
+        
+        System.out.println(food);
     }
 }
