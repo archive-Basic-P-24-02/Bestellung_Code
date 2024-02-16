@@ -6,12 +6,16 @@ public class App {
     {
         
         // Variablen deklarieren
-        String food = "leer";
-        String drink = "leer";
-       
-        System.out.println("Hallo Christoph!");  
+
+        String food = "noch kein Burger gewählt";
+        String drink = "noch kein Getränk gewählt";
+        String itemNumStr;
+        String flag;
+
         System.out.println(food);  
         System.out.println(drink); 
+
+  
 
 
     }
