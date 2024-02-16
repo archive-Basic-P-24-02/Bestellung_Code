@@ -41,6 +41,22 @@ public class App {
         System.out.println(food);
 
 
+        // Entscheidung Getränk dazu?
+        System.out.println("Möchten Sie ein Getränk dazu bestellen? (j/n)");
+        flag = System.console().readLine("(j/n)? :");
+
+        System.out.println(flag);
+
+        if (flag.equals("j")) {
+
+            System.out.println("mit drink");
+
+        } else{
+            System.out.println("ohne drink");
+
+        }
+
+
     }
 
 }
