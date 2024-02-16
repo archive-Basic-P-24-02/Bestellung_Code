@@ -61,7 +61,7 @@ public class App {
                 case "2":
                     drink = "Fanta";
                     break;
-                case "3":3
+                case "3":
                     drink = "Sprite" ;
                     break;
             }
@@ -78,4 +78,3 @@ public class App {
     }
 
 }
-
