@@ -1,8 +1,9 @@
 essen := leer;
 getränk := leer;
 System.out.println(Guten Tag bei MD, Ihre Bestellung bitte!);
-System.out.println(Hamburger, Cheeseburger oder Chilliburger?);
+System.out.println(Hamburger(1), Cheeseburger(2) oder Chilliburger(3)?);
  Hamburger = System.console().readLine();
+ 
 switch (Burgerauswahl)
 {
     case Hamburger:
